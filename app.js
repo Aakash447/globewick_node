@@ -10,9 +10,14 @@ console.log('dirname:',__dirname)
 app.set("view engine", "ejs");
 
 //Routes
-app.use('/api',userRouter)
-
-const port = process.env.PORT || 3000 ;
-app.listen(port,()=>{
-    console.log(`Server is started at ${port}`)
+app.get('/',(req,res)=>{
+    console.log(' in app.get ')
+    res.render('User/index')
 })
+console.log('process.env.NODE_ENV:',process.env.NODE_ENV)
+
+    app.listen(()=>{
+        console.log(`Server is started`)
+    })
+
+
