@@ -1,0 +1,81 @@
+.backImage {
+  border: 1px solid black;
+  position: relative;
+  width: 99.2vw;
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .backImage .ImageContent {
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: column; }
+  .backImage h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center; }
+  .backImage p {
+    font-size: 1.5rem;
+    margin-top: 12px;
+    color: white;
+    text-align: center; }
+  .backImage a {
+    margin-top: 35px; }
+
+.backImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.pexels.com/photos/2310885/pexels-photo-2310885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
+  opacity: 0.8;
+  z-index: -1; }
+
+.backImage * {
+  color: white;
+  z-index: 5; }
+
+.backImage2 {
+  border: 1px solid black;
+  position: relative;
+  width: 99.2vw;
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .backImage2 .ImageContent {
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: column; }
+  .backImage2 h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center; }
+  .backImage2 p {
+    font-size: 1.5rem;
+    margin-top: 12px;
+    color: white;
+    text-align: center; }
+  .backImage2 a {
+    margin-top: 35px; }
+
+.backImage2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
+  opacity: 0.8;
+  z-index: -1; }
+
+.backImage * {
+  color: white;
+  z-index: 5; }

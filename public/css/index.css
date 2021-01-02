@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#main-header h1 {
+  color: #fa0000;
+  background: #c0c0ec;
+  font-weight: bold; }

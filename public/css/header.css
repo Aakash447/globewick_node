@@ -1,0 +1,26 @@
+#header_wrapper {
+  z-index: 1;
+  min-height: 110px;
+  padding-top: 20px;
+  background-color: black; }
+  #header_wrapper .row {
+    padding: 0 0;
+    justify-content: space-between; }
+    #header_wrapper .row #logo {
+      width: 7%; }
+      #header_wrapper .row #logo img {
+        width: 90%;
+        height: 81%; }
+  #header_wrapper nav ul {
+    display: flex;
+    margin: 26px 0; }
+    #header_wrapper nav ul li {
+      margin: 0 25px;
+      list-style: none; }
+      #header_wrapper nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase; }
+        #header_wrapper nav ul li a:hover {
+          position: relative;
+          top: 1px; }
