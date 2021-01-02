@@ -1,13 +1,18 @@
 @media only screen and (max-width: 600px) {
+  #header_wrapper .container {
+    width: 91%; }
   #header_wrapper .row {
     display: flex;
     flex-direction: column;
     align-self: center;
     margin: 0 auto; }
-    #header_wrapper .row #logo img {
-      width: 70%;
-      height: 85%;
-      margin-left: 30px; }
+    #header_wrapper .row #logo {
+      width: 50%;
+      margin: 0 auto; }
+      #header_wrapper .row #logo img {
+        width: 70%;
+        height: 85%;
+        margin-left: 30px; }
   #our-services .services {
     flex-direction: column; }
   #even-more-services {
@@ -35,14 +40,23 @@
     height: 400px;
     background: chocolate;
     margin: 0px 10px !important; }
+  #contact-us .container {
+    width: 80%; }
   #contact-us .form-control:nth-child(2) {
     margin-left: 0px !important; }
   #contact-us input[type="submit"] {
     margin-left: 15% !important; }
-  #contact-us .form-control:nth-child(1) input,
-  #contact-us .form-control:nth-child(2) input {
-    width: 112% !important;
-    margin: 0 !important; }
+  #contact-us .form-control:nth-child(1),
+  #contact-us .form-control:nth-child(2) {
+    width: 100%; }
+    #contact-us .form-control:nth-child(1) input,
+    #contact-us .form-control:nth-child(2) input {
+      width: 100%;
+      margin: 0; }
+  #contact-us input {
+    height: 3rem; }
+  #contact-us textarea {
+    height: 5rem; }
   #login-container form {
     padding: 30px 10px !important;
     display: flex;

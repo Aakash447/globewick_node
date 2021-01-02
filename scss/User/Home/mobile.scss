@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
     #header_wrapper {
+      .container{
+        width: 91%;
+      }
       .row {
         display: flex;
         flex-direction: column;
@@ -7,6 +10,8 @@
   
         margin: 0 auto;
         #logo {
+          width: 50%;
+          margin:0 auto;
           img {
             width: 70%;
             height: 85%;
@@ -72,6 +77,9 @@
       }
     }
     #contact-us {
+      .container{
+        width: 80%;
+      }
       .form-control:nth-child(2) {
         margin-left: 0px !important;
       }
@@ -81,10 +89,19 @@
       }
       .form-control:nth-child(1),
       .form-control:nth-child(2) {
+        // display:block;
+        width: 100% ;
         input {
-          width: 112% !important;
-          margin: 0 !important;
+          width: 100% ;
+          margin: 0 ;
+          
         }
+      }
+      input{
+        height: 3rem;
+      }
+      textarea{
+        height: 5rem;
       }
     }
     #login-container {
