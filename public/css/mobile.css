@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+  #header_wrapper .row {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto; }
+    #header_wrapper .row #logo img {
+      width: 70%;
+      height: 85%;
+      margin-left: 30px; }
+  #our-services .services {
+    flex-direction: column; }
+  #even-more-services {
+    grid-template-columns: none !important; }
+    #even-more-services img {
+      margin: 50px;
+      width: 70vw !important;
+      height: 90%;
+      z-index: 5; }
+    #even-more-services .right {
+      margin: 40px; }
+  .backImage h1 {
+    font-size: 2rem !important;
+    margin: 10px; }
+  .backImage2 h1 {
+    font-size: 2rem !important;
+    margin: 10px; }
+  #about-us .grid-row {
+    grid-template-columns: none !important;
+    grid-template-rows: 1fr 1fr !important; }
+  #about-us .left p {
+    margin: 15px 0px !important; }
+  #about-us .right .box {
+    width: 100% !important;
+    height: 400px;
+    background: chocolate;
+    margin: 0px 10px !important; }
+  #contact-us .form-control:nth-child(2) {
+    margin-left: 0px !important; }
+  #contact-us input[type="submit"] {
+    margin-left: 15% !important; }
+  #contact-us .form-control:nth-child(1) input,
+  #contact-us .form-control:nth-child(2) input {
+    width: 112% !important;
+    margin: 0 !important; }
+  #login-container form {
+    padding: 30px 10px !important;
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    margin: 20px auto !important;
+    background: none !important;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px; } }
