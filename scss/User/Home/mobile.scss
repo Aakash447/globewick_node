@@ -1,122 +1,123 @@
 @media only screen and (max-width: 600px) {
-    #header_wrapper {
-      .container{
-        width: 91%;
-      }
-      .row {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-  
+  #header_wrapper {
+    .container {
+      width: 91%;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+
+      margin: 0 auto;
+      #logo {
+        width: 50%;
         margin: 0 auto;
-        #logo {
-          width: 50%;
-          margin:0 auto;
-          img {
-            width: 70%;
-            height: 85%;
-            margin-left: 30px;
-          }
+        img {
+          width: 70%;
+          height: 85%;
+          margin-left: 30px;
         }
-      }
-    }
-    #our-services {
-      .services {
-        // display:flex;
-        flex-direction: column;
-        .box {
-          // margin-bottom: 10px !important;
-        }
-      }
-    }
-    #even-more-services {
-      // display:grid;
-      // grid-template-rows: 1fr 1fr !important;
-      grid-template-columns: none !important;
-      img {
-        margin: 50px;
-        width: 70vw !important;
-        height: 90%;
-        z-index: 5;
-      }
-      .right {
-        margin: 40px;
-      }
-    }
-    .backImage {
-      h1 {
-        font-size: 2rem !important;
-        margin: 10px;
-      }
-    }
-  
-    .backImage2 {
-      h1 {
-        font-size: 2rem !important;
-        margin: 10px;
-      }
-    }
-  
-    #about-us {
-      .grid-row {
-        grid-template-columns: none !important;
-        grid-template-rows: 1fr 1fr !important;
-      }
-      .left {
-        p {
-          margin: 15px 0px !important;
-        }
-      }
-      .right {
-        .box {
-          width: 100% !important;
-          height: 400px;
-          background: chocolate;
-          margin: 0px 10px !important;
-        }
-      }
-    }
-    #contact-us {
-      .container{
-        width: 80%;
-      }
-      .form-control:nth-child(2) {
-        margin-left: 0px !important;
-      }
-      input[type="submit"] {
-        margin-left: 15% !important;
-        // color:blue;
-      }
-      .form-control:nth-child(1),
-      .form-control:nth-child(2) {
-        // display:block;
-        width: 100% ;
-        input {
-          width: 100% ;
-          margin: 0 ;
-          
-        }
-      }
-      input{
-        height: 3rem;
-      }
-      textarea{
-        height: 5rem;
-      }
-    }
-    #login-container {
-      form {
-        padding: 30px 10px !important;
-        display: flex;
-        flex-direction: column;
-        width: 100% !important;
-        // height: 400px;
-        margin: 20px auto !important;
-        background:none !important;
-        justify-content: start;
-        align-items: center;
-        border-radius: 10px;
       }
     }
   }
-  
+  #our-services {
+    .services {
+      // display:flex;
+      flex-direction: column;
+      .box {
+        // margin-bottom: 10px !important;
+      }
+    }
+  }
+  #even-more-services {
+    // display:grid;
+    // grid-template-rows: 1fr 1fr !important;
+    grid-template-columns: none !important;
+    img {
+      margin: 50px;
+      width: 70vw !important;
+      height: 90%;
+      z-index: 5;
+    }
+    .right {
+      margin: 40px;
+    }
+  }
+  .backImage {
+    h1 {
+      font-size: 2rem !important;
+      margin: 10px;
+    }
+  }
+
+  .backImage2 {
+    h1 {
+      font-size: 2rem !important;
+      margin: 10px;
+    }
+  }
+
+  #about-us {
+    .grid-row {
+      grid-template-columns: none !important;
+      grid-template-rows: 1fr 1fr !important;
+    }
+    .left {
+      p {
+        margin: 15px 0px !important;
+      }
+    }
+    .right {
+      .box {
+        width: 100% !important;
+        height: 400px;
+        background: chocolate;
+        margin: 0px 10px !important;
+      }
+    }
+  }
+  #contact-us {
+    .container {
+      width: 80%;
+    }
+    .form-control:nth-child(2) {
+      margin-left: 0px !important;
+    }
+    input[type="submit"] {
+      margin-left: 15% !important;
+      // color:blue;
+    }
+    .form-control:nth-child(1),
+    .form-control:nth-child(2) {
+      // display:block;
+      width: 100%;
+      input {
+        width: 100%;
+        margin: 0;
+      }
+    }
+    input {
+      height: 3rem;
+    }
+    textarea {
+      height: 5rem;
+    }
+  }
+  #login-container {
+    form {
+      padding: 30px 10px !important;
+      display: flex;
+      flex-direction: column;
+      width: 100% !important;
+      // height: 400px;
+      margin: 20px auto !important;
+      background: none !important;
+      justify-content: start;
+      align-items: center;
+      border-radius: 10px;
+      input{
+        width: 100%;
+      }
+    }
+  }
+}

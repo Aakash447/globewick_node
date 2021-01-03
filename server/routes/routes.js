@@ -7,6 +7,11 @@ router.get("/about", (req, res) => {
   res.render("User/About/about");
 });
 
+router.get("/login", (req, res) => {
+  console.log(" in app.get  /login ");
+  res.render("User/Login/Login");
+});
+
 // POST route from contact form
 router.post("/contact", (req, res) => {
     console.log('in contact route:',req.body)

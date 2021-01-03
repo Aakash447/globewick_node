@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  width: 100%;
+  background: #ffff68; }
+
 #about-us {
   padding: 100px 20px; }
   #about-us .left {
@@ -10,7 +14,7 @@
     #about-us .left p {
       margin: 35px 0px;
       line-height: 1.8rem;
-      color: #68647a;
+      color: #000000;
       font-size: 1rem; }
   #about-us .right .box {
     width: 50%;
@@ -117,8 +121,9 @@
 
 footer {
   text-align: center;
-  background: #d1d7e2;
-  padding: 20px 0; }
+  background: #000000;
+  padding: 20px 0;
+  color: white; }
 
 #contact-us {
   margin: 50px 0; }

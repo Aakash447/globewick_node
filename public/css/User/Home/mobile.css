@@ -66,4 +66,6 @@
     background: none !important;
     justify-content: start;
     align-items: center;
-    border-radius: 10px; } }
+    border-radius: 10px; }
+    #login-container form input {
+      width: 100%; } }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/User/Home/utility.css" />
+    <link rel="stylesheet" type="text/css" href="/css/User/About/about.css" />
+    <link rel="stylesheet" type="text/css" href="/css/User/Home/header.css" />
+    <link rel="stylesheet" type="text/css" href="/css/User/Home/index.css" />
+    <link rel="stylesheet" type="text/css" href="/css/User/Home/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="/css/User/Login/login.css" />
+    <title>Globewick</title>
+  </head>
+  <body>
+    <div id="login-container">
+      <%- include('../Home/Helpers/navbar') %>
+      <div class="container">
+        <form>
+          <h1>Login Form</h1>
+          <div class="form-control">
+            <label>Username:</label>
+            <input type="text" value="" name="username" />
+          </div>
+
+          <!-- {/* <br />
+          */} -->
+          <div class="form-control">
+            <label>Password:</label>
+            <input type="password" value="" name="password" />
+          </div>
+
+          <!-- {/* <br />
+          */} -->
+          <div class="form-control">
+            <button type="button" class="btn" style="padding: 9px 20px">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <%- include('../Home/Helpers/Footer') %>
+  </body>
+</html>

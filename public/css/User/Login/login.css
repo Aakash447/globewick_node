@@ -1,0 +1,23 @@
+#login-container {
+  background: #ffff68;
+  min-height: 94vh; }
+  #login-container form {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    background: white;
+    justify-content: start;
+    align-items: center; }
+    #login-container form h1 {
+      margin-bottom: 20px; }
+    #login-container form label {
+      margin-left: 0;
+      padding: 5px; }
+    #login-container form .form-control {
+      margin-top: 20px; }
+    #login-container form input {
+      padding: 10px;
+      width: 100%; }
