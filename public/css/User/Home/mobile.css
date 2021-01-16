@@ -1,10 +1,10 @@
 @media only screen and (max-width: 600px) {
   #header_wrapper .container {
-    width: 91%; }
+    width: 100%; }
   #header_wrapper .row {
     display: flex;
-    flex-direction: column;
     align-self: center;
+    justify-content: space-between;
     margin: 0 auto; }
     #header_wrapper .row #logo {
       width: 50%;
