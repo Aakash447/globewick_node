@@ -22,6 +22,6 @@ app.use('/',userRouter)
 
 // console.log("process.env.NODE_ENV:", process.env.NODE_ENV);
 
-app.listen(3000,() => {
+app.listen(() => {
   console.log(`Server is started`);
 });
